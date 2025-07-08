@@ -18,14 +18,14 @@ const Header = () => {
           
           {/* Navigation */}
           <nav className="hidden md:flex items-center gap-8">
-            <a href="#templates" className="text-sm font-medium text-foreground hover:text-primary transition-colors">
+            <a href="/templates" className="text-sm font-medium text-foreground hover:text-primary transition-colors">
               Templates
             </a>
-            <a href="#features" className="text-sm font-medium text-foreground hover:text-primary transition-colors">
-              Features
+            <a href="/builder" className="text-sm font-medium text-foreground hover:text-primary transition-colors">
+              Builder
             </a>
-            <a href="#examples" className="text-sm font-medium text-foreground hover:text-primary transition-colors">
-              Examples
+            <a href="/preview" className="text-sm font-medium text-foreground hover:text-primary transition-colors">
+              Preview
             </a>
             <a href="#pricing" className="text-sm font-medium text-foreground hover:text-primary transition-colors">
               Pricing
